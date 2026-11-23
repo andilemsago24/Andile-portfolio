@@ -28,7 +28,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-slate-300 transition duration-300 hover:text-pink-400"
+              className="text-sm font-medium text-neutral-300 transition duration-300 hover:text-pink-400"
             >
               {link.name}
             </Link>
